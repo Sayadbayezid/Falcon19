@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falcon 19 - Karimun Nessa Siddiqui High School</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #121212; /* Dark Sports Theme */
+            color: #ffffff;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #1f1f1f;
+            padding: 15px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 3px solid #ffcc00; /* Yellow accent */
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo-container img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #ffcc00;
+        }
+
+        .team-title h1 {
+            font-size: 24px;
+            color: #ffcc00;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 3px;
+        }
+
+        .team-title p {
+            font-size: 12px;
+            color: #cccccc;
+            letter-spacing: 1px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1518605368461-1ee11603998b?q=80&w=2070') center/cover;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            margin-bottom: 15px;
+            color: #ffcc00;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 650px;
+            margin: 0 auto;
+            line-height: 1.6;
+            color: #dddddd;
+        }
+
+        .hero strong {
+            color: #ffffff;
+        }
+
+        /* Player Squad Section */
+        .squad-section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .squad-section h2 {
+            font-size: 32px;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            border-bottom: 2px solid #ffcc00;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+
+        .player-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        /* Player Card Design */
+        .player-card {
+            background-color: #1f1f1f;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            transition: transform 0.3s;
+            border: 1px solid #333;
+        }
+
+        .player-card:hover {
+            transform: translateY(-10px);
+            border-color: #ffcc00;
+        }
+
+        .player-image {
+            width: 100%;
+            height: 250px;
+            background-color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #777;
+        }
+
+        .player-info {
+            padding: 20px;
+        }
+
+        .player-info h3 {
+            color: #ffcc00;
+            margin-bottom: 5px;
+        }
+
+        .player-info p {
+            color: #cccccc;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .jersey-number {
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+            margin-top: 10px;
+            display: block;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0a0a0a;
+            color: #777;
+            border-top: 1px solid #333;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+        
+        footer span {
+            color: #ffcc00;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Area -->
+    <header>
+        <div class="logo-container">
+            <img src="https://i.ibb.co/v4t8GJbM/IMG-3336.jpg" alt="Falcon 19 Logo">
+            <div class="team-title">
+                <h1>Falcon - 19</h1>
+                <p>করিমুন নেছা সিদ্দিকী উচ্চ বিদ্যালয়</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#squad">Our Squad</a></li>
+                <li><a href="#">Matches</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Area -->
+    <section class="hero">
+        <h2>Unleash the Falcons</h2>
+        <p>Official Website of the SSC 2019 Batch Football Team of <strong>Karimun Nessa Siddiqui High School</strong>. We play with passion, unity, and pride. Meet our warriors ready for the upcoming tournament.</p>
+    </section>
+
+    <!-- Player Squad Area -->
+    <section id="squad" class="squad-section">
+        <h2>Meet The Players</h2>
+        
+        <div class="player-grid">
+            
+            <!-- Player Card 1 -->
+            <div class="player-card">
+                <div class="player-image">
+                    [Player Photo Here]
+                </div>
+                <div class="player-info">
+                    <h3>Rafiqul Islam</h3>
+                    <p><strong>Position:</strong> Striker</p>
+                    <p><strong>Skill:</strong> Speed & Finishing</p>
+                    <span class="jersey-number">#10</span>
+                </div>
+            </div>
+
+            <!-- Player Card 2 -->
+            <div class="player-card">
+                <div class="player-image">
+                    [Player Photo Here]
+                </div>
+                <div class="player-info">
+                    <h3>Ahsan Habib</h3>
+                    <p><strong>Position:</strong> Midfielder</p>
+                    <p><strong>Skill:</strong> Playmaking</p>
+                    <span class="jersey-number">#08</span>
+                </div>
+            </div>
+
+            <!-- Player Card 3 -->
+            <div class="player-card">
+                <div class="player-image">
+                    [Player Photo Here]
+                </div>
+                <div class="player-info">
+                    <h3>Mahmudul Hasan</h3>
+                    <p><strong>Position:</strong> Defender</p>
+                    <p><strong>Skill:</strong> Tackling & Heading</p>
+                    <span class="jersey-number">#04</span>
+                </div>
+            </div>
+
+            <!-- Player Card 4 -->
+            <div class="player-card">
+                <div class="player-image">
+                    [Player Photo Here]
+                </div>
+                <div class="player-info">
+                    <h3>Sajid Rahman</h3>
+                    <p><strong>Position:</strong> Goalkeeper</p>
+                    <p><strong>Skill:</strong> Reflexes</p>
+                    <span class="jersey-number">#01</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer Area -->
+    <footer>
+        <p>&copy; 2026 <span>Falcon - 19</span> (করিমুন নেছা সিদ্দিকী উচ্চ বিদ্যালয় - SSC 2019 Batch). All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
