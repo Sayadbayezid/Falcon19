@@ -143,15 +143,18 @@
             align-items: center;
             justify-content: center;
             color: #777;
+            font-size: 14px;
         }
 
         .player-info {
             padding: 20px;
+            position: relative;
         }
 
         .player-info h3 {
             color: #ffcc00;
             margin-bottom: 5px;
+            text-transform: uppercase;
         }
 
         .player-info p {
@@ -159,13 +162,28 @@
             font-size: 14px;
             margin-bottom: 5px;
         }
+        
+        .jersey-size {
+            display: inline-block;
+            background: #333;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-top: 5px;
+            color: #ffcc00;
+        }
 
         .jersey-number {
-            font-size: 24px;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 28px;
             font-weight: bold;
+            color: #444;
+        }
+
+        .player-card:hover .jersey-number {
             color: #fff;
-            margin-top: 10px;
-            display: block;
         }
 
         /* Footer */
@@ -186,13 +204,12 @@
 </head>
 <body>
 
-    <!-- Header Area -->
     <header>
         <div class="logo-container">
             <img src="https://i.ibb.co/v4t8GJbM/IMG-3336.jpg" alt="Falcon 19 Logo">
             <div class="team-title">
                 <h1>Falcon - 19</h1>
-                <p>করিমুন নেছা সিদ্দিকী উচ্চ বিদ্যালয়</p>
+                <p>করিমুন নেছা সিদ্দিকী উচ্চ বিদ্যালয়</p>
             </div>
         </div>
         <nav>
@@ -205,76 +222,341 @@
         </nav>
     </header>
 
-    <!-- Hero Area -->
     <section class="hero">
         <h2>Unleash the Falcons</h2>
         <p>Official Website of the SSC 2019 Batch Football Team of <strong>Karimun Nessa Siddiqui High School</strong>. We play with passion, unity, and pride. Meet our warriors ready for the upcoming tournament.</p>
     </section>
 
-    <!-- Player Squad Area -->
     <section id="squad" class="squad-section">
         <h2>Meet The Players</h2>
         
         <div class="player-grid">
             
-            <!-- Player Card 1 -->
             <div class="player-card">
-                <div class="player-image">
-                    [Player Photo Here]
-                </div>
+                <div class="player-image">[Photo Pending]</div>
                 <div class="player-info">
-                    <h3>Rafiqul Islam</h3>
-                    <p><strong>Position:</strong> Striker</p>
-                    <p><strong>Skill:</strong> Speed & Finishing</p>
+                    <h3>NAZMUL</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: L</span>
+                    <span class="jersey-number">#30</span>
+                </div>
+            </div>
+            
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>RAKIB</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: L</span>
                     <span class="jersey-number">#10</span>
                 </div>
             </div>
 
-            <!-- Player Card 2 -->
             <div class="player-card">
-                <div class="player-image">
-                    [Player Photo Here]
-                </div>
+                <div class="player-image">[Photo Pending]</div>
                 <div class="player-info">
-                    <h3>Ahsan Habib</h3>
-                    <p><strong>Position:</strong> Midfielder</p>
-                    <p><strong>Skill:</strong> Playmaking</p>
-                    <span class="jersey-number">#08</span>
+                    <h3>SAGOR</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: L</span>
+                    <span class="jersey-number">#19</span>
                 </div>
             </div>
 
-            <!-- Player Card 3 -->
             <div class="player-card">
-                <div class="player-image">
-                    [Player Photo Here]
-                </div>
+                <div class="player-image">[Photo Pending]</div>
                 <div class="player-info">
-                    <h3>Mahmudul Hasan</h3>
-                    <p><strong>Position:</strong> Defender</p>
-                    <p><strong>Skill:</strong> Tackling & Heading</p>
-                    <span class="jersey-number">#04</span>
+                    <h3>SHOHAG</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: L</span>
+                    <span class="jersey-number">#20</span>
                 </div>
             </div>
 
-            <!-- Player Card 4 -->
             <div class="player-card">
-                <div class="player-image">
-                    [Player Photo Here]
-                </div>
+                <div class="player-image">[Photo Pending]</div>
                 <div class="player-info">
-                    <h3>Sajid Rahman</h3>
-                    <p><strong>Position:</strong> Goalkeeper</p>
-                    <p><strong>Skill:</strong> Reflexes</p>
-                    <span class="jersey-number">#01</span>
+                    <h3>SHARIF</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: L</span>
+                    <span class="jersey-number">#7</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>RAKIB</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: L</span>
+                    <span class="jersey-number">#13</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>MASUD</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: L</span>
+                    <span class="jersey-number">#10</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>HIMEL</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: L</span>
+                    <span class="jersey-number">#28</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>ASIF JR</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: L</span>
+                    <span class="jersey-number">#11</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>BAYXED</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: L</span>
+                    <span class="jersey-number">#15</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>MARUF</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: L</span>
+                    <span class="jersey-number">#8</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>RS RIPON</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: L</span>
+                    <span class="jersey-number">#4</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>SOHIDUL</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: L</span>
+                    <span class="jersey-number">#22</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>SIAM</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: L</span>
+                    <span class="jersey-number">#18</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>SADIQ</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: L</span>
+                    <span class="jersey-number">#7</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>G RABBY</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: M</span>
+                    <span class="jersey-number">#85</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>SK MASUD</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: M</span>
+                    <span class="jersey-number">#7</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>RABBY HR</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: M</span>
+                    <span class="jersey-number">#27</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>BB</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: M</span>
+                    <span class="jersey-number">#10</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>RAFIN</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: XL</span>
+                    <span class="jersey-number">#010</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>SHAMIM</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: XL</span>
+                    <span class="jersey-number">#8</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>RUBEL</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: XL</span>
+                    <span class="jersey-number">#35</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>JUBAYER</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: XL</span>
+                    <span class="jersey-number">#00</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>ABID</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: XL</span>
+                    <span class="jersey-number">#9</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>JM JONY</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: XL</span>
+                    <span class="jersey-number">#2</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>SAZIB</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: XL</span>
+                    <span class="jersey-number">#75</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>SHAHED</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: XL</span>
+                    <span class="jersey-number">#3</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>RUBEL</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: XL</span>
+                    <span class="jersey-number">#4</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>ASHRAFUL</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: XL</span>
+                    <span class="jersey-number">#27</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>SHOVO</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: XL</span>
+                    <span class="jersey-number">#10</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>SUJON</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: XL</span>
+                    <span class="jersey-number">#14</span>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <div class="player-image">[Photo Pending]</div>
+                <div class="player-info">
+                    <h3>SAIFUL</h3>
+                    <p><strong>Position:</strong> TBD</p>
+                    <span class="jersey-size">Size: XL</span>
+                    <span class="jersey-number">#21</span>
                 </div>
             </div>
 
         </div>
     </section>
 
-    <!-- Footer Area -->
     <footer>
-        <p>&copy; 2026 <span>Falcon - 19</span> (করিমুন নেছা সিদ্দিকী উচ্চ বিদ্যালয় - SSC 2019 Batch). All Rights Reserved.</p>
+        <p>&copy; 2026 <span>Falcon - 19</span> (করিমুন নেছা সিদ্দিকী উচ্চ বিদ্যালয় - SSC 2019 Batch). All Rights Reserved.</p>
     </footer>
 
 </body>
